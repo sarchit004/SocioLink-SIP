@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocioLink</title>
+    <link rel="stylesheet" href="Appointment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+</head>
+
+<body>
+    <div class="banner">
+
+        <div class="icon">
+            <a href="counselors.html"><i class="fa-solid fa-arrow-left"></i></a>
+        </div>
+
+        <header>
+
+            <div class="logo">
+                <img id="log" src="siplogo.png" alt="logo" height="95px" width="130px">
+                <h2>SocioLink</h2>
+            </div>
+
+            <div class="head">
+                <h2>Appointment Confirmation</h2>
+            </div>
+        </header>
+
+        <section class="big-container">
+
+
+
+            <div class="container">
+
+                <div class="main-contain">
+
+                    <div class="slogan">
+                        <h2>Book an appointment and begin your journey to a healthier, happier you.</h2>
+                    </div>
+
+                    <div class="content">
+                        <p>To confirm your appointment with the SocioLink, kindly fill out the form provided on
+                            this page. Upon receiving your submission, we will promptly contact you to gather
+                            additional information and help.</p>
+                    </div>
+
+                    <div class="con">
+                        <p>"If you're seeking counseling for a challenge you're facing, reach out to SocioLink now! You
+                            won't regret it!"</p>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="fullformn">
+
+                    <div class="details">
+                        <h2>Please provide your details below.</h2>
+                    </div>
+
+
+                    <form class="appointment-form" action="appointment.php" method="post">
+                        <!-- onsubmit="return showConfirmation()" -->
+                        <input type="text" name="name" placeholder="Name" required><br>
+                        <input type="email" name="email" placeholder="Email" required><br>
+                        <input type="tel" name="phone" placeholder="Phone Number" required><br>
+                        <input type="text" name="month" placeholder="Month" required><br>
+                        <input type="text" name="day" placeholder="Day" required><br>
+                        <input type="time" name="time" value="Time" required><br>
+                        <textarea id="message" name="message" placeholder="Message" rows="4" required></textarea><br>
+                        <input id="submit" type="submit" value=" Confirm Appointment">
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+     <!-- Popup -->
+     <div class="popup-overlay" id="popupOverlay"></div>
+     <div class="popup" id="confirmationPopup">
+         <h2>Appointment Confirmed!</h2>
+         <p>Your appointment has been successfully scheduled. <br>We will get in touch with you soon.</p>
+         <button onclick="hideConfirmation()">Close</button>
+     </div>
+ 
+     <script>
+         function showConfirmation() {
+             // Show the popup and overlay
+             document.getElementById('popupOverlay').style.display = 'block';
+             document.getElementById('confirmationPopup').style.display = 'block';
+             // Prevent form submission
+             return false;
+         }
+ 
+         function hideConfirmation() {
+             // Hide the popup and overlay
+             document.getElementById('popupOverlay').style.display = 'none';
+             document.getElementById('confirmationPopup').style.display = 'none';
+         }
+ 
+       
+     </script>
+</body>
+
+</html>

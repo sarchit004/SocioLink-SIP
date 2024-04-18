@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Gruppo&family=Inika:wght@400;700&family=Jacques+Francois&family=Just+Another+Hand&family=Kaisei+Opti&family=Kufam:ital,wght@0,400..900;1,400..900&family=Life+Savers:wght@400;700;800&family=M+PLUS+2:wght@100..900&family=Maven+Pro:wght@400..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+.banner{
+    
+    position: relative;
+    background-color: rgb(48, 47, 47);
+    /* background-image: linear-gradient(70deg, #FFECD2 30%, #FCB69F);  */
+    height: 100vh;
+    width: 100%;
+    
+}
+header{
+    background-color: rgb(48, 47, 47);
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: -50px;
+
+}
+
+.logo h2 {
+    margin-left: -42px;
+    margin-top: -2px;
+    color: rgb(229, 148, 26);
+    font-size: 33px;
+    letter-spacing: 2px;
+    font-family: "M PLUS 2", sans-serif;
+}
+
+#log {
+    margin-left: 13px;
+    margin-top: -30px;
+
+}
+
+.navbar {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+
+}
+
+.nav-menu ul li:hover {
+    transform: scale(1.1);
+}
+
+.nav-menu ul li a:hover {
+    color: rgb(229, 148, 26);
+
+}
+.main-background{
+    background-image: url(couns.jpg);
+    background-size: cover;
+    height: 65vh;
+}
+
+.title{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 70px;
+    color: #eceeef;
+    font-family: "El Messiri", sans-serif;
+    letter-spacing: 6px;
+    margin-right: 20px;
+    line-height: 58px;
+    margin-top: 0px;
+   
+}
+.title h1{
+padding: 90px 0px 0px 0px;
+}
+
+
+.slogan{
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    color: #e3e5e6;
+    font-weight: 500;
+    line-height: 25px;
+    margin-right: 20px;
+}
+.counselor-section h2{
+   
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    
+    
+
+}
+.counselor-section a{
+    text-decoration: none;
+}
+.counselor-section {
+    display: inline-block;
+    border: 1px ;
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 22px;
+    margin-left: 900px;
+    background-color: #ff8500;
+}
+.counselor-section:hover{
+    
+    background-color: transparent;
+    border: 2px solid #ff8500;
+
+}
+.counselor-section h2:hover{
+    color: rgb(229, 148, 26);   
+
+}
+.appoint-btn {
+    padding: 10px 20px;
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.appoint-btn:hover {
+    background-color: #ff8500;
+}
+
+.write{
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 200;
+    margin-left: 300px;
+    text-align: center;
+}
+
+.box{
+    height: 150px;
+    /* background-image: linear-gradient(150deg, #ffdde1, #ee9ca7); */
+    background-color: rgb(244, 242, 242);
+    display: inline-block;
+    margin-top: 0px;
+    border: 1px;
+    border-radius: 5px;
+    padding: 30px;
+  
+}
+
+.write{
+    margin-left: 500px;
+}
+
+.image{
+    position: absolute;
+    bottom: -16px;
+    left: -38px;
+   
+}
+
+.footer {
+   margin-top: 0px;
+    background-color: #0D3B66;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -30px;
+
+}
+
+.foot h1 {
+    font-family: "M PLUS 2", sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.services {
+    margin-top: -45px;
+}
+
+.services h1 {
+    color: white;
+    font-family: "M PLUS 2", sans-serif;
+    font-size: 22px;
+    margin-left: 545px;
+    font-weight: 200;
+    line-height: 48px;
+
+
+}
+.socials{
+    margin-top: 15px;
+}
+
+.socials h2{
+    color: white;
+    font-family: "M PLUS 2", sans-serif;
+    font-size: 23px;
+    margin-right: 150px;
+    font-weight: 200;
+    
+
+}
+
+.socials h1 {
+    color: white;
+    font-family: "M PLUS 2", sans-serif;
+    font-size: 16px;
+    margin-right: 150px;
+    font-weight: 200;
+}
+
+.socials i {
+    font-size: 18px;
+    margin: 10px;
+}

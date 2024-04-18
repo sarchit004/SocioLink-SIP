@@ -1,0 +1,281 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    background-color: rgb(48, 47, 47);
+    color: rgb(3, 3, 3);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid #c1bfbf;
+    height: 60px;
+}
+.icon{
+    position: absolute;
+    top: 6px;
+   
+}
+.icon i{
+    font-size: 31px;
+    color: white;
+}
+.logoo{
+    display: flex;
+    text-align: center;
+}
+.logoo h1{
+    color: rgb(232, 229, 229);
+    margin-left: 390px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: -50px;
+
+}
+
+.logo h2 {
+    margin-left: -45px;
+    margin-top: 8px;
+    color: rgb(229, 148, 26);
+    font-size: 33px;
+    letter-spacing: 2px;
+    font-family: "M PLUS 2", sans-serif;
+}
+
+#log {
+    margin-left: 53px;
+    margin-top: -30px;
+
+}
+
+.logo h1 {
+    margin: 0;
+    flex: 1; 
+    text-align: center; 
+    margin-left: 437px;
+    color: white;
+    font-weight: 200;
+}
+
+
+main {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+article {
+    padding: 10px;
+}
+
+article img {
+    width: 100%;
+    height:300px;
+}
+
+h2, h3 {
+    margin: 10px 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+aside {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+aside img{
+    height: 100px;
+    margin-right: 10px;
+}
+
+h4 {
+    margin: 0 0 10px;
+}
+.f{
+    text-align: left;
+    background-color: black;
+    color: rgb(239, 239, 248);
+    padding: 5px 5px 5px 8px;
+}
+.zoom {
+    width: 100;
+    height: auto;
+}
+.zoom:hover {
+    transform: scale(1.09);
+}
+.making{
+    background-color: white;
+}
+.making a{
+    color: #000000;
+}
+.making1{
+    background-color: rgb(234, 233, 233);
+}
+.making1 a{
+    color: #000000;
+}
+.making img{
+    height: 140px;
+}
+.making1 img{
+    height: 137px;
+    width: 206px;
+}
+.international{
+    position: relative;
+    right: 12px;
+    left:1px;
+    background-color: rgb(202, 192, 192);
+    color: #000000;
+    border-radius: 4px;
+    padding: 5px 5px 5px 5px;
+    box-sizing: content-box;
+    width: 1480px;
+    text-align: center;
+    border: 2px solid #3d3b3b;
+}
+.making2{
+    background-color: white;
+}
+.making2 a{
+    color: #000000;
+}
+.making2 img{
+    height: 136px;
+}
+.making3{
+    background-color: rgb(234, 233, 233);
+}
+.making3 a{
+    color: #000000;
+}
+.making3 img{
+    height: 137px;
+}
+.making4{
+    background-color: white;
+}
+.making4 a{
+    color: #000000;
+}
+.making4 img{
+    height: 136px;
+    width: 206px;
+}
+.making5{
+    background-color: rgb(234, 233, 233);
+}
+.making5 a{
+    color: #000000;
+}
+.making5 img{
+    height: 136px;
+}
+.national{
+    position: relative;
+    right: 12px;
+    left:1px;
+    background-color: rgb(202, 192, 192);
+    color: #000000;
+    border-radius: 4px;
+    padding: 5px 5px 5px 5px;
+    box-sizing: content-box;
+    width: 1480px;
+    text-align: center;
+    border: 2px solid #3d3b3b;
+}
+.making6{
+    background-color: white;
+}
+.making6 a{
+    color: #000000;
+}
+.making6 img{
+    height: 114px;
+}
+.making7{
+    background-color: rgb(234, 233, 233);
+}
+.making7 a{
+    color: #000000;
+}
+.making7 img{
+    height: 113px;
+}
+.making8{
+    background-color: white;
+}
+.making8 a{
+    color: #000000;
+}
+.making8 img{
+    height: 136px;
+    width: 206px;
+}
+.making9{
+    background-color: rgb(234, 233, 233);
+}
+.making9 a{
+    color: #000000;
+}
+.making9 img{
+    height: 136px;
+    width: 206px;
+}
+.title1 a{
+    text-decoration: none;
+    color: black;
+}
+.title2 a{
+    text-decoration: none;
+    color: black;
+}
+.title3 a{
+    text-decoration: none;
+    color:#000000;
+}
+.zoomn :hover{
+    transform: scale(1.04);
+}
+.zoomn1 :hover{
+    transform: scale(1.04); 
+}
+.zoomn2 :hover{
+    transform: scale(1.04);
+}
+.zoomn3 :hover{
+    transform: scale(1.04);
+}
+.zoomn4 :hover{
+    transform: scale(1.04);
+}
+.zoomn5 :hover{
+    transform: scale(1.04);
+}
+.zoomn6 :hover{
+    transform: scale(1.05);
+}
+.zoomn7 :hover{
+    transform: scale(1.05);
+}
+.zoomn8 :hover{
+    transform: scale(1.04);
+}
+.zoomn9 :hover{
+    transform: scale(1.04);
+}
+.f h1{
+    margin-left: 670px;
+}

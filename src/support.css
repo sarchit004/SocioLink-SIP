@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Just+Another+Hand&family=Life+Savers:wght@400;700;800&family=Maven+Pro:wght@400..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Just+Another+Hand&family=Life+Savers:wght@400;700;800&family=Maven+Pro:wght@400..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Just+Another+Hand&family=Kaisei+Opti&family=Life+Savers:wght@400;700;800&family=Maven+Pro:wght@400..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Gruppo&family=Inika:wght@400;700&family=Jacques+Francois&family=Just+Another+Hand&family=Kaisei+Opti&family=Kufam:ital,wght@0,400..900;1,400..900&family=Life+Savers:wght@400;700;800&family=M+PLUS+2:wght@100..900&family=Maven+Pro:wght@400..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+}
+.banner{
+    background-color: rgb(54, 54, 54);
+}
+header{
+    background-color: rgb(54, 54, 54);
+}
+
+
+
+
+.main-page{
+    background-image: url(twoo.jpg);
+    background-size: cover;
+    height: 75vh;
+    width: 100%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: -50px;
+
+}
+
+.logo h2 {
+    margin-left: -42px;
+    margin-top: -2px;
+    color: rgb(229, 148, 26);
+    font-size: 33px;
+    letter-spacing: 2px;
+    font-family: "M PLUS 2", sans-serif;
+}
+
+#log {
+    margin-left: 13px;
+    margin-top: -30px;
+
+}
+
+.navbar {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+
+}
+
+.nav-menu ul li:hover {
+    transform: scale(1.1);
+}
+
+.nav-menu ul li a:hover {
+    color: rgb(229, 148, 26);
+
+}
+.content{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.title h2{
+    font-family: "El Messiri", sans-serif;
+    color: black;
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 8px;
+
+}
+
+.image{
+    margin-left: 65px;
+}
+
+.slogan h3{
+    font-family: "El Messiri", sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: black;
+}
+
+.write p{
+    
+    font-size: 20px;
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    line-height: 33px;
+    color: black;
+}
+.line {
+    height: 50px;
+    width: 4px;
+    background-color: rgb(7, 129, 173);
+    margin-left: 60px;
+    
+}
+.org{
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.org h2{
+    font-size: 30px;
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 400;
+    color: white;
+    opacity: 0.9;
+    margin-left: 10px;
+}
+
+
+.first{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 2px;
+    background-color: white;
+    margin-top: 50px;
+    box-shadow: 3px 3px 2px 0px rgb(207, 204, 204)
+}
+.fdesc{
+    margin-left: 90px;
+}
+
+.fdesc h2{
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    margin-top: -30px;
+    color: rgb(59, 58, 58);
+}
+ .fdesc p{
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(15, 14, 14);
+    line-height: 20px;
+    margin-top: 3px;
+ }
+ .fdesc h4{
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(14, 13, 13);
+    line-height: 20px;
+    margin-top: 25px;
+ }
+ 
+ .second{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 2px;
+    background-color: white;
+    margin-top: 50px;
+    box-shadow: 3px 3px 2px 0px rgb(207, 204, 204)
+}
+.simg{
+    margin-left: 51px;
+}
+.sdesc{
+    margin-left: 140px;
+}
+
+.sdesc h2{
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    margin-top: -20px;
+    color: rgb(59, 58, 58);
+}
+ .sdesc p{
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(15, 14, 14);
+    line-height: 20px;
+    margin-top: 3px;
+ }
+ .sdesc h4{
+    
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(14, 13, 13);
+    line-height: 20px;
+    margin-top: 10px;
+ }
+ 
+ .footer {
+    margin-top: 200px;
+    background-color: #0D3B66;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.title {
+    font-family: "M PLUS 2", sans-serif;
+    margin-top: 100px;
+
+}
+
+.title h1 {
+    font-family: "M PLUS 2", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 300;
+    color: #f28612;
+
+}
+
+.title p {
+    font-family: "M PLUS 2", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    color: white;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -30px;
+
+}
+
+.foot h1 {
+    font-family: "M PLUS 2", sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.services {
+    margin-top: -45px;
+}
+
+.services h1 {
+    color: white;
+    font-family: "M PLUS 2", sans-serif;
+    font-size: 22px;
+    margin-left: 545px;
+    font-weight: 200;
+    line-height: 48px;
+
+
+}
+.socials{
+    margin-top: 15px;
+}
+
+.socials h2{
+    color: white;
+    font-family: "M PLUS 2", sans-serif;
+    font-size: 23px;
+    margin-right: 150px;
+    font-weight: 200;
+    
+
+}
+
+.socials h1 {
+    color: white;
+    font-family: "M PLUS 2", sans-serif;
+    font-size: 16px;
+    margin-right: 150px;
+    font-weight: 200;
+}
+
+.socials i {
+    font-size: 23px;
+    margin: 10px;
+}
+

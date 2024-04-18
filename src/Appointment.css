@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Gruppo&family=Inika:wght@400;700&family=Jacques+Francois&family=Just+Another+Hand&family=Kaisei+Opti&family=Kufam:ital,wght@0,400..900;1,400..900&family=Life+Savers:wght@400;700;800&family=M+PLUS+2:wght@100..900&family=Maven+Pro:wght@400..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.icon{
+    margin-left: 25px;
+    margin-top: 10px;
+    position: absolute;
+    opacity: 0.8;
+    cursor: pointer;
+    
+}
+.icon i {
+    font-size: 26px; 
+    color: black;
+    
+  }
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head h2{
+    text-align: center;
+    margin-right: 480px;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.banner {
+    position: relative; 
+    /* height: 103vh; */
+    width: 100%;
+    overflow: hidden; 
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(appointbg.jpg); 
+    background-size: cover;
+    opacity: 0.4; 
+    z-index: -1; 
+}
+
+.logo {
+    margin-top: -22px;
+    margin-left: 44px;
+}
+
+.logo h2 {
+    margin-left: 30px;
+    margin-top: -14px;
+    color: #292F36;
+    font-family: "M PLUS 2", sans-serif;
+}
+
+#log {
+    margin-left: 13px;
+}
+
+.big-container .container{
+  
+    width: 85%;
+    margin: 30px auto;
+}
+
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.appointment-form input[type="text"],
+.appointment-form input[type="email"],
+.appointment-form input[type="tel"], 
+.appointment-form textarea,
+.appointment-form input[type="time"] {
+    margin-top: 18px;
+    height: 28px;
+    width: 110%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.appointment-form{
+    margin-top: 10px;
+}
+
+.appointment-form input[type="submit"] {
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.appointment-form input[type="submit"]:hover {
+    background-color: #ff8500;
+}
+
+#message {
+    height: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-contain{
+    width: 50%;
+    
+}
+
+
+
+.slogan h2{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 57px;
+    font-weight: 500;
+   
+}
+
+.content p{
+    font-family: "Raleway", sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.con p{
+    font-family: "Raleway", sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+.con p{
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.con{
+    margin-top: 20px;
+
+}
+
+.details h2{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+/* Popup styles */
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.popup h2 {
+    color: #024372;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.popup p {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.popup button {
+    padding: 10px 20px;
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.popup button:hover {
+    background-color: #ff8500;
+}

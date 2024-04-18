@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocioLink</title>
+    <link rel="stylesheet" href="complaint.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="banner">
+
+        <header>
+            <div class="navbar">
+                <div class="logo">
+                    <img id="log" src="siplogo.png" alt="logo" height="100px" width="150px">
+                    <h2>SocioLink</h2>
+                </div>
+
+                <div class="nav-menu">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="Gethelp.html"> Get help <i class="fa-solid fa-chevron-down"></i></a></li>
+                        <li><a href="support.html">Support Service</a></li>
+                        <li><a href="News.html">News</a></li>
+                        <li><a href="complaint.html">File complaint</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </header>
+        <div class="main">
+            <div class="title">
+                <h2>File your complaint. <br> We are here for you!</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <div class="slogan">
+            <h2>Let us hear you and <br> your problem.</h2>
+            <p> Please feel free to share
+                what's been bothering you by filling out the form below. Remember, SocioLink is always here for you,
+                ready to offer support and help you navigate through whatever obstacles come your way."
+            </p>
+            <p>"We value your complaint and assure that we handle each complaints with care and confidentially,
+                safeguarding your privacy."</p>
+        </div>
+
+        <div class="contact">
+            <h2>Contact us</h2>
+            <h3>By Emails </h3>
+            <p>SocioLink@gmail.com</p>
+            <h3>Phone</h3>
+            <p>98XXXXXXXX</p>
+            <p>01-XXXXXX</p>
+
+            <div class="social">
+                <h3>Socials</h3>
+                <div class="icons">
+                    <p><a href="#"><i class="fa-brands fa-facebook"></i></a></p>
+                    <p><a href="#"><i class="fab fa-twitter"></i></a></p>
+                    <p><a href="#"><i class="fab fa-instagram"></i></a></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="provide-details">
+        <h2>Provide Your Details</h2>
+        <form action="complaint.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="phone">Phone No.:</label><br>
+            <input type="tel" id="phone" name="phone"><br>
+
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address"><br>
+
+            <label for="message">Complaint:</label><br>
+            <textarea id="message" name="Complaint" rows="4" cols="50"></textarea><br>
+
+            <input type="submit" value="Submit" class="submit">
+        </form>
+    </div>
+
+    
+
+
+
+
+</body>
+
+</html>
